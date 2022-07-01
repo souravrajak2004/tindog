@@ -1,0 +1,145 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0  4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'montserrat-slight',sans-serif;
+}
+
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-image{
+    position: absolute;
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+}
+
+/* features */
+
+
+.row{
+    text-align: center;
+}
+    
+h3{
+    font-size: 1.5rem;
+    font-family: 'montserrat',sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    
+
+}
+p{
+    font-size: smaller;
+    color: #8f8f8f;
+    
+}
+#features{
+    padding: 15% 7%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.fa-check-circle,.fa-bullseye,.fa-heart{
+    color: #ef8172;
+    
+}
+.fa-check-circle:hover,.fa-bullseye:hover,.fa-heart:hover{
+    color: #ff4c68;
+}
+
+
+/* testimonials */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'montserrat',sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+.press-logo{
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-sec{
+    padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* call to action */
+.colored-section{
+    background-color: #ff4c68;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: montserrat;
+
+}
+/* footer */
+.white-section{
+    text-align: center;
+}    
+.footer-link{
+    padding: 0px 18px;
+}
